@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import style
 
-# custom made, made it myself
+# custom made, made it myself, just for plot analysis and customizing dataset, can be found in github plot analysis and dataset customizing
 from DATASET_CUSTOMIZING.DATASET_READING_CUSTOMIZING_INPUT import make_dataset
 from PLOT_ANALYSIS.PLOT_ANALYSIS_INPUT import make_analysis
 
@@ -971,6 +971,6 @@ Type a number (min 10 times recommended) : '''))
 
 # read or make some customization for the dataset the user wants to use in this linear regression model
 # df = make_dataset()
-# df = pd.read_csv('machine2.csv', sep=',')
+df = pd.read_csv(r'C:/F-matus/MAPE PROGRAMOVANIE PYTHON/ALL PROJECTS/DATASETS_csv_txt_excel/machine2.csv', sep=',')
 
-# Linear_Regression(df)
+Linear_Regression(df)
