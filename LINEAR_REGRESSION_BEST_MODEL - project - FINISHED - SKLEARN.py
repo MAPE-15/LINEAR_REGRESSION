@@ -971,6 +971,5 @@ Type a number (min 10 times recommended) : '''))
 
 # read or make some customization for the dataset the user wants to use in this linear regression model
 # df = make_dataset()
-df = pd.read_csv(r'C:/F-matus/MAPE PROGRAMOVANIE PYTHON/ALL PROJECTS/DATASETS_csv_txt_excel/machine2.csv', sep=',')
 
-Linear_Regression(df)
+# Linear_Regression(df)
