@@ -2,6 +2,8 @@
 
 ### NOTES  
 Included 3 models.  
+Must have included t-distribution dataset, to decided what is t-distribution value, and with that make predictions etc.  
+
 
 One called simple linear regression uses no sklearn and is made from scratch.  
 Takes only one feature that's why is called simple.  
